@@ -1,0 +1,36 @@
+button{
+    margin-top: 5px;
+    background-color: green;
+    text-decoration-color: white;
+  }
+  table {
+    width: 110%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.actions-column {
+    display: flex;
+    justify-content: space-between 5px;
+}
+
+
+.btn{
+    margin-right:5px;
+}
+
+
+th:nth-child(3), td:nth-child(3),
+th:nth-child(4), td:nth-child(4) {
+    width: 15%; /* Set width for First Name and Last Name columns */
+}
+
+
+

@@ -1,0 +1,59 @@
+<div class="add-student-container">
+
+<h3>Create Student</h3>
+<form   class="add-student-form" (ngSubmit) = "OnSubmit()">
+
+<div class="form-group">
+    <label>Enter Your First Name</label>
+    <input type="text" class="form-control" id="firstname" placeholder="enter your firstname" 
+     [(ngModel)]="student.firstname" name="firstname">
+</div>
+
+<div class="form-group">
+    <label>Enter Your Last Name</label>
+    <input type="text" class="form-control" id="lastname" placeholder="enter your lastname" 
+     [(ngModel)]="student.lastname" name="lastname">
+</div>
+
+<div class="form-group">
+    <label>Enter Your College Name</label>
+    <input type="text" class="form-control" id="collegename" placeholder="enter your collegename" 
+     [(ngModel)]="student.college   " name="collegename">
+</div>
+
+<div class="form-group">
+    <label>Enter Your Mobile Number</label>
+    <input type="text" class="form-control" id="mobilenumber" placeholder="enter your mobilenumber" 
+     [(ngModel)]="student.mobilenumber" name="mobilenumber">
+</div>
+
+<div class="form-group">
+    <label>Enter Your Email-Id</label>
+    <input type="text" class="form-control" id="email" placeholder="enter your email-id" 
+     [(ngModel)]="student.email" name="email">
+</div>
+
+<div class="form-group">
+    <label>Enter Your Course Name</label>
+    <input type="text" class="form-control" id="coursename" placeholder="enter your coursename" 
+     [(ngModel)]="student.coursename" name="coursename">
+</div>
+
+<div class="form-group">
+    <label>Enter Your Course Fee</label>
+    <input type="text" class="form-control" id="courseFee" placeholder="enter your coursefee" 
+     [(ngModel)]="student.courseFee" name="coursefee">
+</div>
+
+<!-- <div class="form-group">
+    <label>Enter Your PassWord</label>
+    <input type="text" class="form-control" id="password" placeholder="enter your password" 
+     [(ngModel)]="student.password" name="password">
+</div> -->
+
+<button class = "btn btn-success" type="submit">submit</button>
+<button class = "btn btn-success" type="submit" routerLink="/students" id="goto">cancel</button>
+
+</form>
+
+</div>

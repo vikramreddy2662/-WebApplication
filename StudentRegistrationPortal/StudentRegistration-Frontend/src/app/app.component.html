@@ -1,0 +1,23 @@
+<h1 class="text-align">{{title}}</h1>
+<nav class="navbar navbar-expand sm bg-primary navbar-dark">
+    <ul class="nav-navbar">
+        <li class="nav-item">
+            <a routerLink="/students" routerLinkActive="active" class="nav-Link">Student-Details</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="addstudents" routerLinkActive="active" class="nav-Link">Add-Student</a>
+        </li>
+    </ul>
+
+</nav>
+
+<div class="container">
+<!-- <student-list></student-list> -->
+<router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span>You can register your details here</span>
+    </div>
+</footer>

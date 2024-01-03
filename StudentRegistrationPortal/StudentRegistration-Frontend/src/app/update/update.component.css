@@ -1,0 +1,40 @@
+
+   .add-student-container {
+    max-width: 400px;
+    margin: 0 auto;
+    
+    padding: 20px;
+  }
+  
+  .form-group {
+    padding: auto;
+    margin: auto;
+  }
+  
+  h3 {
+    margin: 0px;
+  
+    text-align: center;
+  }
+  
+  ::placeholder {
+    text-align: center;
+  }
+  
+  .form-control {
+    height: 25px;
+  }
+  label{
+    margin-bottom: auto;
+  }
+  
+  
+  button {
+    margin-top: 5px;
+  }
+  
+  #goto {
+  
+    margin-left: 5px;
+  
+  }
